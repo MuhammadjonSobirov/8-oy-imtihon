@@ -1,0 +1,79 @@
+.custom-search .ant-input {
+    padding: 14px 15px 14px 30px !important; 
+}
+
+.custom-search .ant-btn {
+    height: 40px !important;
+    padding: 17px 15px !important;
+
+}
+
+.post-button{
+    background-color: #FCA311;
+}
+
+.post-button {
+  background-color: #FCA311 !important;
+  border: none !important;
+  padding: 10px 20px !important;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+}
+
+.like-button{
+    background-color: inherit;
+    border: none;
+}
+
+
+.table-item:hover {
+    box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer; 
+}
+
+.header1{
+    background-color: white;
+    width: 98%;
+    padding-left: 79px;
+    padding-right: 68px;
+    margin-right: -79px;
+    margin-left: -79px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-top: 20px;
+    margin-bottom: 68px;
+    padding-bottom: 20px;
+  }
+  
+  .header-open {
+    padding-left: 30px;
+    width: 96%;
+  }
+  
+  .header-closed {
+    padding-left: 80px;
+    width: 93%;
+  }
+  
+  .custom-search {
+    width: 300px;
+  }
+  
+  .header-actions {
+    display: flex;
+    gap: 16px;
+    align-items: start;
+  }
+
+  .language-select{
+    border-radius: 5px;
+    background-color: #F3F3F3;
+    border: none;
+    width: 65px;
+    height: 35px;
+    padding: 5px;
+  }

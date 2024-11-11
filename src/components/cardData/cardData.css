@@ -1,0 +1,55 @@
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+    animation: justify-content 0.3s ease;
+    padding-left: 50px;
+  }
+  
+  .card-item {
+    max-width: 350px;
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    width: 350px;
+    border-bottom: 10px solid #fca311;
+  }
+  
+  .card-image {
+    width: 100%;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-price {
+    color: #6a9b0c;
+    font-size: 20px;
+  }
+  
+  .card-favorite {
+    width: 20px; 
+  }
+  
+  .pagination-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+
+  .card-time{
+    font-size: 12px;
+    text-align: end;
+    opacity: 0.5;
+  }
+
+  .card-location{
+    display: flex;
+    justify-content: space-between;
+  }

@@ -1,0 +1,16 @@
+.back {
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.content {
+    margin-left: 50px;
+}
+
+.content__container {
+    margin-top: 30px;
+    border-radius: 10px;
+    justify-content: space-between;
+}

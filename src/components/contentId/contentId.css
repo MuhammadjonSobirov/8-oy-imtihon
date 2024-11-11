@@ -1,0 +1,96 @@
+.contentId__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentId__img{
+    width: 580px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.content_img_list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contentId_img_child{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.contentId__img_child_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+
+.contentId__phone_container{
+    align-items: center;
+    gap: 10px;
+    text-align: end;
+    margin-bottom: 20px;
+}
+
+.contentId__btn{
+    margin-left: 20px;
+    background-color: #FCA311;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.contentId__location{
+    width: 600px;
+}
+
+.contentId__location_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.contentId__info{
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 450px;
+    padding: 25px;
+}
+
+.contentId__info_block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentId__info_title{
+    display: flex;
+    align-items: center;
+}
+
+.contentId__info_title_text{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contentId__info_btn{
+    background-color: inherit;
+    border: none;
+}
+
+.contentId__info_price{
+    color: greenyellow;
+    font-weight:400;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
